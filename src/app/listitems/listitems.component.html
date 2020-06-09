@@ -1,0 +1,13 @@
+<table class="table">
+    <tr>
+        <th>Item Name</th>
+        <th>Vehicle Brand</th>
+        <th>Quantity</th>
+    </tr>
+    <tr *ngFor='let item of items'>
+        <td>{{ item.part }}</td>
+        <td>{{ item.brand }}</td>
+        <td>{{ item.quantity }}</td>
+    </tr>
+
+</table>
